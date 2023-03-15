@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.content{
+    width: 100vw;
+    height: 100vh;
+}
+.photo{
+    width: 40vw;
+    height: 100vh;
+    background-color: grey;
+}
