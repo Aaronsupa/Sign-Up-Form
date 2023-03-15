@@ -1,15 +1,44 @@
+:root{
+    --white-color: "#FFFFFF"
+}
+
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 }
 
 .content{
     width: 100vw;
     height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
 }
+
 .photo{
+    background-image: url("/Users/aaronj/Downloads/michail-dementiev-SinEVOVewWA-unsplash.jpg");
     width: 40vw;
-    height: 100vh;
-    background-color: grey;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+.rightSide{
+    width: 60vw;
+    height: 100vh;
+    background-color: "#E5EAF5";
+}
+
+.caption{
+    width: 40vw;
+    height: 20vh;
+    background-color: rgb(0, 0, 0, 0.4);
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caption > .wombo{
+    color:white;
+}
+
