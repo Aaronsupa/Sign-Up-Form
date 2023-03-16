@@ -22,12 +22,6 @@
     background-repeat: no-repeat;
 }
 
-.rightSide{
-    width: 60vw;
-    height: 100vh;
-    background-color: "#E5EAF5";
-}
-
 .caption{
     width: 40vw;
     height: 20vh;
@@ -42,3 +36,58 @@
     color:white;
 }
 
+.rightSide{
+    width: 60vw;
+    height: 70vh;
+    margin-top: 5vh;
+    background-color: "#E5EAF5";
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageCaption{
+    width: 40vw;
+    height: 20vh;
+    margin-top: 10vh;
+    flex-flow: row wrap;
+}
+ 
+.pageBody{
+    width: 40vw;
+    height: 35vh;
+    box-shadow:  1px 1px 1px black;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.form{
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form > div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.creaAcc{
+    margin-top: 3vh;
+}
+
+.alrSub{
+    margin-top: 3vh;
+}
+
+span{
+    color: blue;
+    font-weight: bold;
+}
